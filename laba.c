@@ -48,7 +48,6 @@ int get_int_input(){
         printf("ОШИБКА. НЕКОРРЕКТНЫЙ КОДЮ ВВВЕДИТЕ, ПОЖАЙЛУСТА ЧИСЛО:");  
     }
     while((c = getchar()) !='\n' && c != EOF);
-    
     return value;
 }
 
